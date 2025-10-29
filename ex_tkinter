@@ -1,0 +1,13 @@
+from tkinter import Tk
+
+from tkinter import Tk,Button,Label
+
+def dizer_ola():
+
+rotulo_ola_mundo.config(text="olá, mundo!")
+
+janela= Tk()
+janela.title("dizer olá")
+
+botao_dizer_ola = Button(janela,text ="dizer Olá, command=dizer_ola)
+                         

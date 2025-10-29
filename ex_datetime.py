@@ -21,3 +21,4 @@ data__atual = datetime.now()
 data_formatada_cultura = data__atual.strftime("%A, %d de %B de %Y")
 print("Data formatada com cultura:", data_formatada_cultura)
 
+
